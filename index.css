@@ -1,0 +1,1088 @@
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 1440px;
+    height: 7700px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+header {
+    width: 1440px;
+    height: 990px;
+}
+
+.birinchi {
+    width: 1440px;
+    height: 48px;
+    background-color: #6244A3;
+    /* padding-top: 15px; */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    display: flex;
+    gap: 463px;
+    align-items: center;
+}
+
+.birinchi p {
+    margin-left: 550px;
+}
+
+nav {
+    width: 1280px;
+    height: 72px;
+    /* background-color: rgb(5, 222, 41); */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    margin-right: 193px;
+    margin-left: 413px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #697586;
+}
+
+.drop {
+    position: relative;
+    display: flex;
+    gap: 8px;
+}
+
+.drop2 {
+    display: none;
+    width: 120px;
+    height: 150px;
+    color: white;
+    background-color: orange;
+    padding: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: 20px;
+}
+
+.drop:hover .drop2 {
+    display: block;
+}
+
+nav button {
+    width: 119px;
+    height: 42px;
+    border-radius: 64px;
+    border: 1px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #CF4D74;
+}
+
+.button1 {
+    display: flex;
+    gap: 8px;
+}
+
+.button2 {
+    width: 100px;
+    height: 42px;
+    background-color: white;
+    color: #202939;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.button2:hover {
+    width: 100px;
+    height: 42px;
+    border-radius: 64px;
+    border: 1px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #CF4D74;
+    transition: 0.5s;
+}
+
+nav button:hover {
+    width: 119px;
+    height: 42px;
+    background-color: white;
+    color: #202939;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.hero {
+    width: 1440px;
+    height: 790px;
+    padding: 0px 0px 0px 80px;
+    background-color: #EDEBF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bir {
+    width: 560px;
+    height: 346px;
+}
+
+.hero h1 {
+    width: 472px;
+    height: 135px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 67.2px;
+    text-align: left;
+    color: #3C2769;
+}
+
+.herop {
+    width: 544px;
+    height: 90px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #3C2769;
+    margin-top: 28px;
+}
+
+.story {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+    margin-top: 37px;
+    margin-left: 16px;
+    margin-bottom: 100px;
+}
+
+.shop {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin-top: 37px;
+}
+
+.story:hover {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+
+.shop:hover {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+    transition: 0.5s;
+}
+
+.frem {
+    display: flex;
+    gap: 32px;
+}
+
+.frem1 {
+    margin-bottom: 24px;
+}
+
+/* header tugadi */
+main {
+    width: 1440px;
+    height: 636px;
+    text-align: center;
+    padding: 160px 349px;
+}
+
+main span {
+    width: 115px;
+    height: 42px;
+    background-color: #EDEBF7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #3C2769;
+    margin-bottom: 22px;
+}
+
+main h2 {
+    width: 421px;
+    height: 58px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    /* text-align: center; */
+    color: #202939;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+}
+
+main p {
+    width: 741px;
+    height: 81px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #697586;
+    margin-bottom: 37px;
+}
+
+.story1 {
+    width: 138px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: #CDD5DF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+}
+
+.story1:hover {
+    background-color: #CF4D74;
+    color: white;
+    transition: 0.5s;
+}
+
+/* main tugadi */
+section {
+    width: 1280px;
+    height: 773px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    /* text-align: center; */
+}
+
+section span {
+    width: 113px;
+    height: 32px;
+    background-color: #EDEBF7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 584px;
+    color: #3C2769;
+}
+
+section h2 {
+    width: 750px;
+    height: 116px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: center;
+    color: #202939;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section1 {
+    width: 395px;
+    height: 483px;
+    border-radius: 16px;
+    background-color: #F3F5F7;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.section1 img {
+    width: 395px;
+    height: 210px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clean {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #202939;
+    margin-top: 69px;
+    margin-left: 16px;
+}
+
+.ipsum {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #697586;
+    margin-left: 16px;
+}
+
+.section2 {
+    display: flex;
+    gap: 48px;
+    margin-top: 80px;
+}
+
+.usd {
+    margin-left: 300px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #697586;
+}
+
+.products {
+    width: 363px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: #ffffff;
+    margin-left: 15.5px;
+    margin-top: 15px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.products:hover {
+    background-color: #0fee22;
+    color: white;
+    transition: 0.5s;
+}
+
+/* section tugadi */
+.item {
+    width: 1280px;
+    height: 740.83px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 32px;
+}
+
+.item div:nth-child(1) {
+    width: 624px;
+    height: 721px;
+    border-radius: 24px;
+    background-color: #F3F5F7;
+}
+
+.best {
+    width: 528px;
+    height: 201px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.best h3 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px;
+    text-align: center;
+    color: #202939;
+}
+
+.best p {
+    width: 418px;
+    height: 54px;
+    color: #697586;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 78px;
+    margin-top: 27px;
+}
+
+.best2 {
+    width: 119px;
+    height: 42px;
+    border-radius: 64px;
+    border: 1px;
+    background-color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+    margin-left: 253px;
+    margin-top: 37px;
+}
+
+.best2:hover {
+    background-color: #0fee22;
+    color: white;
+    transition: 0.5s;
+}
+
+.img4 {
+    margin-top: 64px;
+}
+
+.img2 {
+    animation-name: img2;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes img2 {
+    from {
+        transform: scale(1.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* item tugadi */
+.item1 {
+    width: 1280px;
+    height: 692px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item1 span {
+    width: 124px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #EDEBF7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3C2769;
+    margin-left: 590px;
+}
+
+.item1 h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: center;
+    color: #202939;
+}
+
+.itemp {
+    width: 600px;
+    height: 54px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-left: 268px;
+    margin-left: 338px;
+    text-align: center;
+    margin-top: 28px;
+    color: #697586;
+}
+
+.apply {
+    display: flex;
+    gap: 48px;
+    padding: 0 38.5;
+    justify-content: center;
+}
+
+.apply1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    color: #202939;
+    margin-bottom: 26px;
+}
+
+.dollor {
+    width: 317px;
+    height: 72px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #4B5563;
+}
+
+.clean1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EDEBF7;
+    padding: 35px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 31px;
+}
+
+/* item1 tugadi */
+.item3 {
+    width: 1280px;
+    height: 576px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    margin-bottom: 160px;
+}
+
+.item3 span {
+    width: 199px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #EDEBF7;
+    margin-bottom: 14px;
+}
+
+.item3 h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #202939;
+    margin-bottom: 28px;
+}
+
+.item3 p {
+    width: 571px;
+    height: 81px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #697586;
+    margin-bottom: 37px;
+}
+
+.item3 button {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px solid blue;
+    background-color: #ffffff;
+    margin-right: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+}
+
+.item3 button:hover {
+    background-color: #0fee22;
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+
+/* item 3 tugadi */
+.item4 {
+    width: 1440px;
+    height: 722px;
+    background-color: #F3F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item21 {
+    width: 514.28px;
+    height: 344px;
+    margin-top: 127px;
+}
+
+.item21 h2 {
+    width: 383px;
+    height: 116px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #202939;
+}
+
+.item21 p {
+    width: 511px;
+    height: 108px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #697586;
+    margin-top: 27px;
+}
+
+.item21 button {
+    width: 151px;
+    height: 58px;
+    border-radius: 64px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.item21 button:hover {
+    background-color: white;
+    color: orange;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.item22 {
+    width: 685.7px;
+    height: 434px;
+}
+
+.item23 {
+    position: relative;
+    width: 683.7px;
+    height: 72px;
+    background-color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #202939;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.plus {
+    font-family: Material Icons;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+}
+
+.item23 p {
+    position: absolute;
+    top: 23px;
+    left: 15px;
+}
+
+/* item 4 tugadi */
+.item5 {
+    width: 1280px;
+    height: 1023.52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item41 {
+    width: 1280px;
+    height: 156px;
+    display: flex;
+    gap: 640px;
+}
+
+.item41 span {
+    width: 140px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #EDEBF7;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3C2769;
+}
+
+.item41 h2 {
+    width: 317px;
+    height: 58px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    color: #202939;
+    margin-bottom: 20px;
+}
+
+.item41 p {
+    width: 468px;
+    height: 27px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #697586;
+}
+
+.item41 button {
+    width: 172px;
+    height: 58px;
+    border-radius: 64px;
+    border: 1px solid #0fee22;
+    background-color: #ffffff;
+    margin-top: 98.17px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #202939;
+}
+
+.item41 button:hover {
+    background-color: #0fee22;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+.item42 {
+    width: 1280px;
+    height: 531.52px;
+    display: flex;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.item43 {
+    width: 405px;
+    height: 532px;
+    background-color: #CDD5DF;
+}
+
+.bacimg {
+    width: 405.33px;
+    height: 273.52px;
+    background-image: url("./image02.png");
+    background-repeat: no-repeat;
+}
+
+.bacimg button {
+    width: 103px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.bacimg button:hover {
+    background-color: white;
+    border: 0.1px solid blue;
+    color: orange;
+}
+
+.item43 h3 {
+    width: 277px;
+    height: 68px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color: #202939;
+    margin-left: 24px;
+    margin-top: 32px;
+}
+
+.item43 p {
+    width: 300px;
+    height: 72px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4B5565;
+    margin-left: 24px;
+    margin-bottom: 12.34px;
+}
+
+.item43 button {
+    width: 103px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.item43 button:hover {
+    background-color: white;
+    color: #4B5563;
+    transition: 0.5s;
+}
+
+.bacimg1 {
+    width: 405.33px;
+    height: 273.52px;
+    background-image: url("./IMAGE03.png");
+    background-repeat: no-repeat;
+}
+
+.bacimg1 button {
+    width: 103px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.bacimg1 button:hover {
+    background-color: white;
+    border: 0.1px solid blue;
+    color: orange;
+}
+
+.bacimg2 {
+    width: 405.33px;
+    height: 273.52px;
+    background-image: url("./IMAGE04.png");
+    background-repeat: no-repeat;
+}
+
+.bacimg2 button {
+    width: 143px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #CF4D74;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.bacimg2 button:hover {
+    background-color: white;
+    border: 0.1px solid blue;
+    color: orange;
+}
+
+/* item 5 tugadi */
+footer {
+    width: 1280px;
+    height: 559px;
+    background-color: #0fee22;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 124px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 321px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    margin-bottom: 18px;
+}
+
+.inp button {
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #CF4D74;
+    margin-left: 16px;
+}
+
+.inp button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.join {
+    width: 480px;
+    height: 248px;
+    padding-top: 55.66px;
+    margin-left: 80px;
+    ;
+}
+
+.join p {
+    width: 390px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #697586;
+    margin-bottom: 12px;
+}
+
+.footer2 {
+    display: flex;
+    gap: 72px;
+}
+
+.footer2 h4 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #121926;
+    margin-bottom: 24px;
+}
+
+.footer2 p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #697586;
+    margin-bottom: 12px;
+}
+
+.oxiri {
+    margin-left: 80px;
+    display: flex;
+    gap: 735px;
+    justify-content: center;
+    align-items: center;
+}
+
+.oxiri p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #697586;
+}
